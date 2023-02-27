@@ -12,7 +12,7 @@ import { Modal } from '../Modal';
 
 function AppUI() {
   const {
-    error,
+    error, 
     loading,
     searchedTodos,
     completeTodo,
@@ -23,7 +23,7 @@ function AppUI() {
   
   return (
     <React.Fragment >
-    <head_bar>Holiii</head_bar>
+    <head_bar></head_bar>
       <TodoCounter />
       <TodoSearch />
 

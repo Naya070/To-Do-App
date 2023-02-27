@@ -13,7 +13,7 @@
 }
 
 .TodoSearch::placeholder {
-  color: gold;
+  color: rgb(214, 188, 43);
   font-family: 'Montserrat';
   font-weight: 400;
   font-style: italic;
