@@ -10,6 +10,7 @@ import { Modal } from '../Modal';
 
 
 
+
 function AppUI() {
   const {
     error, 
@@ -23,7 +24,6 @@ function AppUI() {
   
   return (
     <React.Fragment >
-    <head_bar></head_bar>
       <TodoCounter />
       <TodoSearch />
 
