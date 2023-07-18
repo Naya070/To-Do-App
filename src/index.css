@@ -2,9 +2,9 @@ body {
   margin: 0;
   padding: 0;
   background: #f2f4f5;
-  background-image: url("fondo.jpeg");
-  color: gold;
-  text-shadow: 5px 5px 10px #000000;
+  background-image: url("../src/fondo.png");
+  color: whitesmoke;
+  text-shadow: 2px 4px 8px #000000;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   
 }

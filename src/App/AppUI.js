@@ -7,6 +7,7 @@ import { TodoItem } from '../TodoItem';
 import { TodoForm } from '../TodoForm';
 import { CreateTodoButton } from '../CreateTodoButton';
 import { Modal } from '../Modal';
+import TodoGif from '../TodoGif';
 
 
 
@@ -29,7 +30,10 @@ function AppUI() {
 
       <TodoList>
         {error && <p>Desespérate, hubo un error...</p>}
-        {loading && <p>Estamos cargando, no te desesperes...</p>}
+        {loading && <p>Estamos cargando, no te desesperes...
+          <TodoGif/>
+        </p>
+        }
         {(!loading && !searchedTodos.length) && <p>¡Crea tu primer TODO!</p>}
         
         {searchedTodos.map(todo => (
@@ -52,6 +56,7 @@ function AppUI() {
       <CreateTodoButton
         setOpenModal={setOpenModal}
       />
+      
     </React.Fragment>
   );
 }
