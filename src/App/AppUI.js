@@ -30,9 +30,9 @@ function AppUI() {
 
       <TodoList>
         {error && <p>Desespérate, hubo un error...</p>}
-        {loading && <p>Estamos cargando, no te desesperes...
+        {loading && <div>Estamos cargando, no te desesperes...
           <TodoGif/>
-        </p>
+        </div>
         }
         {(!loading && !searchedTodos.length) && <p>¡Crea tu primer TODO!</p>}
         
